@@ -1,0 +1,8 @@
+# Dataset Configuration for YOLOv8
+path: '.'  # Use '.' to refer to the current directory
+
+train: train/images  # Path to training images (relative to the current directory)
+val: valid/images    # Path to validation images (relative to the current directory)
+
+nc: 7  # Number of classes
+names: ['artwork', 'bed', 'lamp', 'night stand', 'plant', 'sofa', 'wall mirror']  # Class names
